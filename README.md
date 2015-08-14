@@ -2,14 +2,19 @@
 
 1. Make sure to have brew installed on machine [homebrew](https://brew.sh)
 
-2. Run the following command from the current directory
+2. Install bash-completion with brew
 
 	```bash
 	brew install bash-completion
+	```
+	
+3. Copy bash_profile into your home directory
+
+	```bash
 	cp ./bash_profile ~/.bash_profile
 	```
 
-3. Make sure that the version git you are running matches what is found inside ~/.bash_profile
+4. Make sure that the version git you are running matches what is found inside ~/.bash_profile
     * The following two commands show have the same git version
 
 	```bash
