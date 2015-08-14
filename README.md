@@ -17,10 +17,11 @@
 	git --version
 	```
 
-##### (*optional*)
-	To try a different themed terminal 
+#### (*optional*)
+* To try a different themed terminal 
+	
 	```bash
 	open IR_BLACK.terminal
 	```
-	
+
 ##### Thanks to [Ramez](https://github.com/ramezjm) for providing bash_profile
