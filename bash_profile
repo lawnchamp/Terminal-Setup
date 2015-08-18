@@ -10,7 +10,7 @@ HISTTIMEFORMAT='%F %T '
 HISTFILESIZE=1000000000 HISTSIZE=1000000
 
 # Enable git bash completion
- . /usr/local/Cellar/git/2.4.5/etc/bash_completion.d/git-completion.bash
+ . /usr/local/Cellar/git/2.5.0/etc/bash_completion.d/git-completion.bash
 
 # Configure colors, if available.
 if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then

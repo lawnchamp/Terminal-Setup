@@ -18,7 +18,7 @@
     * The following two commands show have the same git version
 
 	```bash
-	grep git-complettion.bash ~/.bash_profile
+	grep git-completion.bash ~/.bash_profile
 	git --version
 	```
 
