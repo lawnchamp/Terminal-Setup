@@ -9,7 +9,7 @@ HISTTIMEFORMAT='%F %T '
 # Keep my history longer
 HISTFILESIZE=1000000000 HISTSIZE=1000000
 
-# Enable git bash completion
+# Enable git bash completion (this is likely to change)
 . /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
 
 
