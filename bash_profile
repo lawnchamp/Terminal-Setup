@@ -10,7 +10,9 @@ HISTTIMEFORMAT='%F %T '
 HISTFILESIZE=1000000000 HISTSIZE=1000000
 
 # Enable git bash completion
- . /usr/local/Cellar/git/2.5.0/etc/bash_completion.d/git-completion.bash
+. /Library/Developer/CommandLineTools/usr/share/git-core/git-prompt.sh
+
+
 
 # Configure colors, if available.
 if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -32,9 +34,9 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 # git bash completion
-GIT_PS1_SHOWDIRTYSTATE=1
-GIT_PS1_SHOWSTASHSTATE=1
-GIT_PS1_SHOWUNTRACKEDFILES=1
+export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWSTASHSTATE=1
+export GIT_PS1_SHOWUNTRACKEDFILES=1
 
 # prompt with git
 PROMPT_COMMAND='PS1="\e[0;34m\w\e[0;32m$(__git_ps1):\[\e[1;37m\]\n"'
