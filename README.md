@@ -9,7 +9,7 @@
 	```
 	
 3. Copy bash_profile into your home directory
-
+    * If you do not have a bash profile already you can cp this `bash_profile` in otherwise pick and choose what you want 
 	```bash
 	cp ./bash_profile ~/.bash_profile
 	```
